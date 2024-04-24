@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+}
+
+li,
+h1,
+p {
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+article header p {
+  font-style: italic;
+}
+
+aside ul{
+  list-style: none;
+}
+footer p {
+  font-size: 16px;
+}
+#fo {
+  color: blue;
+}
+
+.by-name{
+  color: brown;
+}
+li:first-child{
+  font-weight: bold;
+}
+li:nth-child(2){
+  color: aqua;
+}
+li:nth-child(odd){
+  color: blueviolet;
+}
+article p:last-child{
+  color: red;
+}
+a:link{
+  color: #1098ad;
+}
+a:visited{
+color: #1098ad;
+}
+a:hover{
+color: orangered;
+text-decoration: underline dotted  ;
+}
+a:active{
+background-color: #1098ad;
+color: white;
+}
