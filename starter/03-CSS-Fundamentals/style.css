@@ -24,9 +24,14 @@ footer p {
 #fo {
   color: blue;
 }
-
+footer p{
+  color: green !important;
+}
 .by-name{
   color: brown;
+}
+.name{
+  color: chocolate;
 }
 li:first-child{
   font-weight: bold;
@@ -53,4 +58,10 @@ text-decoration: underline dotted  ;
 a:active{
 background-color: #1098ad;
 color: white;
+}
+a:link:last-child{
+
+}
+h3 + p::first-line{
+  color: red;
 }
